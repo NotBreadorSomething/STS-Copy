@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cdug2hg3mud0q"]
+
+[ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="1_ghpn7"]
+[ext_resource type="Script" path="res://characters/warrior/cards/warrior_axe_attack.gd" id="2_y5mf1"]
+
+[resource]
+script = ExtResource("2_y5mf1")
+id = "warrior_axe"
+type = 0
+target = 1
+cost = 1
+icon = ExtResource("1_ghpn7")
+tooltip_text = "[center]Deal [color=red]6[/color] damage.[/center]"
